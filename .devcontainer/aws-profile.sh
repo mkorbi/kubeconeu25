@@ -18,7 +18,7 @@ PROFILE_NAME=${AWS_PROFILE_NAME:-"default"}
 AWS_REGION=${AWS_REGION:-"eu-north-1"}
 
 # Ensure AWS config directory exists
-AWS_CONFIG_DIR="$HOME/.aws"
+AWS_CONFIG_DIR="./.aws"
 mkdir -p "$AWS_CONFIG_DIR"
 
 # Create credentials file
