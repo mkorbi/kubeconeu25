@@ -59,7 +59,7 @@
 		"AWS_ACCESS_KEY_ID": {
 			"description": "AWS access key"
 		},
-		"$AWS_SECRET_ACCESS_KEY": {
+		"AWS_SECRET_ACCESS_KEY": {
 			"description": "Secret access key of AWS"
 		}
 	}
