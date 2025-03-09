@@ -13,7 +13,7 @@ RUN chmod +x /tmp/scripts/docker.sh
 # update the container
 RUN apt-get update && \
     apt-get upgrade -y && \
-    apt-get install zsh ca-certificates gnupg -y && \
+    apt-get install zsh ca-certificates gnupg nodejs -y && \
     apt-get autoremove -y && \
     apt-get clean -y
 
