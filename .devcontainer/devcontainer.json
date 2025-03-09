@@ -62,10 +62,10 @@
 		"AWS_SECRET_ACCESS_KEY": {
 			"description": "Secret access key of AWS"
 		},
-		"GITHUB_TOKEN": {
+		"GIT_TOKEN": {
 			"description": "GH Token"
 		},
-		"GITHUB_ORG_NAME": {
+		"GIT_ORG_NAME": {
 			"description": "GitHub Organization Name"
 		}
 	}
