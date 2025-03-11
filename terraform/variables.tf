@@ -16,18 +16,18 @@ variable "tags" {
 variable "region" {
   description = "Region"
   type        = string
-  default     = "us-west-2"
+  default     = "eu-north-1"
 }
 
 variable "cluster_name" {
   description = "EKS Cluster name"
-  default     = "cnoe-ref-impl"
+  default     = "kubecon"
   type        = string
 }
 
 variable "hosted_zone_id" {
   description = "If using external DNS, specify the Route53 hosted zone ID. Required if enable_dns_management is set to true."
-  default     = "Z0202147IFM0KVTW2P35"
+  default     = "Z0404769HVMP8IWMBX6J"
   type        = string
 }
 
@@ -39,7 +39,7 @@ variable "domain_name" {
 
 variable "organization_url" {
   description = "github organization url"
-  default     = "https://github.com/cnoe-io"
+  default     = "https://github.com/kubeconeu25-demo"
   type        = string
 }
 
