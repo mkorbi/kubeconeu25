@@ -5,4 +5,4 @@ metadata:
   description: A public collection of Backstage templates
 spec:
   targets:
-    - ./kserve/template-job.yaml
+    - ./kserve/templates-job.yaml
